@@ -7,3 +7,82 @@ body{
 	background: linear-gradient(to bottom left, #5ED38A,  #E38463);
 	background-repeat: no-repeat;
 }
+
+/* Primera parte */ 
+
+.txt-idioma{
+	color: white;
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+/* Formulario */ 
+
+.input-group .formname{
+	border-radius: 7px;
+    height: 50px;
+    width: 357px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: transparent;
+    margin-top: 50px;
+	padding-left: 10px;
+}
+
+.input-group .formpsw{
+	border-radius: 7px;
+    height: 50px;
+    width: 357px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: transparent;
+    margin-bottom: 20px;
+	padding-left: 10px;
+}
+
+.btn-iniciar{
+	width: 357px;
+	height: 50px;
+    background-color: transparent;
+    color: white;
+    font-weight: 800;
+    border-color: white;
+    border: 1px solid;
+}
+
+.bajada-btn{
+    color: white;
+    text-align: center;
+    margin-top: 27px;
+    font-weight: 200;
+}
+
+.text-o{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.o-txt{
+	color: white;
+	font-weight: 800;
+}
+
+.raya {
+	width: 160px;
+	color: white;
+}
+
+.facebook{
+	display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 110px;
+    margin-top: 30px;
+}
+
+.facebook i{
+	margin-top: -2px;
+	margin-right: 10px;
+	width: 24px !important;
+    height: 24px !important;
+}
