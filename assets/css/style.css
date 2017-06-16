@@ -86,3 +86,26 @@ body{
 	width: 24px !important;
     height: 24px !important;
 }
+
+/* Footer */
+
+footer{
+    background-color: rgba(255, 255, 255, 0.07);
+    border-top: 1px solid white;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-footer{
+	color: white;
+	margin-top: 10px;
+}
+
+.text-footer a{
+	color: white;
+	font-weight: 800;
+	margin-left: 10px;
+	text-decoration: none;
+}
