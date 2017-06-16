@@ -1,0 +1,24 @@
+body{
+	/*background: linear-gradient(#5AB58E, #CF7A59);*/
+	background: #0F1B14;
+	background-repeat: no-repeat;
+}
+
+.txt-cabecera{
+	color: white;
+}
+
+.contenedor-fotos{
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.foto-square{
+	height: 120px;
+}
+
+.margin-top{
+	margin-top: 5px;
+}

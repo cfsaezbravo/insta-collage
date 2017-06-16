@@ -1,1 +1,61 @@
-index2.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Insta-collage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<script src="https://use.fontawesome.com/be0dd1e218.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style2.css">
+</head>
+<body>
+	<section class="dropfotos" ondragover="permitirDrop(event)" ondrop="drop(event)">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contenedor-logo">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center txt-cabecera">
+					<p>Idioma : Español (España) <i class="fa fa-angle-down"></i></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="fotos">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4 contenedor-fotos">
+					<img class="foto-square img-responsive" shape="rect"  src="assets/img/foto1.jpg" draggable="true" ondragstart="drag(event)" alt="foto">
+				</div>
+				<div class="col-xs-4 contenedor-fotos">
+					<img class="foto-square img-responsive" shape="rect" draggable="true" ondragstart="drag(event)" src="assets/img/foto2.jpg" alt="">
+				</div>
+				<div class="col-xs-4 contenedor-fotos">
+					<img class="foto-square img-responsive" shape="rect"  draggable="true" ondragstart="drag(event)" src="assets/img/foto3.jpg" alt="">
+				</div>
+			</div>
+			<div class="row margin-top">
+				<div class="col-xs-4 contenedor-fotos">
+					<img class="foto-square img-responsive" shape="rect"  draggable="true" ondragstart="drag(event)"  src="assets/img/foto4.jpg" alt="">
+				</div>
+				<div class="col-xs-4 contenedor-fotos">
+					<img class="foto-square img-responsive" shape="rect"  draggable="true" ondragstart="drag(event)"  src="assets/img/foto5.jpg" alt="">
+				</div>
+				<div class="col-xs-4 contenedor-fotos">
+					<img class="foto-square img-responsive" shape="rect"  draggable="true" ondragstart="drag(event)"  src="assets/img/foto6.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="assets/javascript/main.js"></script>
+</body>
+</html>
