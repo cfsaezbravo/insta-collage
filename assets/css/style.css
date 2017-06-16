@@ -1,0 +1,9 @@
+*{
+	font-family: 'Open sans', sans-serif;
+}
+
+body{
+	/*background: linear-gradient(#5AB58E, #CF7A59);*/
+	background: linear-gradient(to bottom left, #5ED38A,  #E38463);
+	background-repeat: no-repeat;
+}
